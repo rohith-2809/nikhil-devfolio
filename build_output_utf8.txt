@@ -1,0 +1,91 @@
+﻿
+> portfolio@0.0.0 build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+node.exe : 
+At C:\Program 
+Files\nodejs\npm.ps1:29 char:3
++   & $NODE_EXE $NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : No 
+   tSpecified: (:String) [], Re  
+  moteException
+    + FullyQualifiedErrorId : Na 
+   tiveCommandError
+ 
+[1m[33mwarn[39m[22m - The 
+`content` option in your 
+Tailwind CSS configuration is 
+missing or empty.
+[1m[33mwarn[39m[22m - 
+Configure your content sources 
+or your generated CSS will be 
+missing styles.
+[1m[33mwarn[39m[22m - https:/
+/tailwindcss.com/docs/content-con
+figuration
+[32mΓ£ô[39m 41 modules transformed.
+[31mΓ£ù[39m Build failed in 
+1.25s
+[31merror during build:
+[31msrc/Portfolio.jsx (21:2): 
+"SiNodeDotJs" is not exported by 
+"../node_modules/react-icons/si/i
+ndex.mjs", imported by 
+"src/Portfolio.jsx".[31m
+file: [36mE:/Nikhils portfolio/p
+ortfolio/src/Portfolio.jsx:21:2[
+31m
+[33m
+19:   SiKubernetes,
+20:   SiMongodb,
+21:   SiNodeDotJs,
+      ^
+22:   SiPython,
+23:   SiPytorch,
+[31m
+    at getRollupError (file:///E:
+/Nikhils%20portfolio/portfolio/no
+de_modules/rollup/dist/es/shared/
+parseAst.js:402:41)
+    at error (file:///E:/Nikhils%
+20portfolio/portfolio/node_module
+s/rollup/dist/es/shared/parseAst.
+js:398:42)
+    at Module.error (file:///E:/N
+ikhils%20portfolio/portfolio/node
+_modules/rollup/dist/es/shared/no
+de-entry.js:17040:16)
+    at Module.traceVariable (file
+:///E:/Nikhils%20portfolio/portfo
+lio/node_modules/rollup/dist/es/s
+hared/node-entry.js:17452:29)
+    at ModuleScope.findVariable (
+file:///E:/Nikhils%20portfolio/po
+rtfolio/node_modules/rollup/dist/
+es/shared/node-entry.js:15070:39)
+    at 
+ReturnValueScope.findVariable (fi
+le:///E:/Nikhils%20portfolio/port
+folio/node_modules/rollup/dist/es
+/shared/node-entry.js:5673:38)
+    at 
+FunctionBodyScope.findVariable (f
+ile:///E:/Nikhils%20portfolio/por
+tfolio/node_modules/rollup/dist/e
+s/shared/node-entry.js:5673:38)
+    at Identifier.bind (file:///E
+:/Nikhils%20portfolio/portfolio/n
+ode_modules/rollup/dist/es/shared
+/node-entry.js:5447:40)
+    at Property.bind (file:///E:/
+Nikhils%20portfolio/portfolio/nod
+e_modules/rollup/dist/es/shared/n
+ode-entry.js:2829:23)
+    at ObjectExpression.bind (fil
+e:///E:/Nikhils%20portfolio/portf
+olio/node_modules/rollup/dist/es/
+shared/node-entry.js:2825:28)[39
+m
